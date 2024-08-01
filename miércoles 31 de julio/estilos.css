@@ -1,0 +1,10 @@
+/* Este es mi hoja de estilo, box model*/
+main{
+    padding: 8rem 1rem;
+    border: 10px; color:rgb(196, 64, 86) ;
+    margin: 5rem;
+}
+img ¨{
+    object-fit: cover;
+    width: 100%;
+}
