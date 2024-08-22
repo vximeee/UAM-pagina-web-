@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+/*Estilos tipograficos*/
+.dm-serif-text-regular{
+font-family: 'Times New Roman', Times, serif;
+font-weight: 400;
+font-style: normal;
+}
+p, li { 
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/*columnas */
+
+.columnas {
+    columns: 3 400px;
+}
+
+/* imagenes */
+img {
+    width: 100%;
+    object-fit: cover;
+}
+h1 {
+    color: blueviolet;
+}
+
+h4 {
+    color: rgb(40, 137, 206);
+    font-weight: 400;
+   
+}
+h5 {
+    color: rgb(190, 190, 3);
+    font-weight: 400;
+}
+
+.clip-me {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.clip-otro {
+    width: 50%;
+    float: right;
+clip-path: polygon(0 14%, 43% 8%, 99% 100%, 23% 100%);
+shape-outside: polygon(0 14%, 43% 8%, 99% 100%, 23% 100%);}
